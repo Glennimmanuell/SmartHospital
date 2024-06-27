@@ -56,7 +56,7 @@ public class mq135 extends AppCompatActivity implements MqttCallback {
         loadExistingData();
 
         try {
-            client = new MqttClient("tcp://broker.hivemq.com:1883", "client01", new MemoryPersistence());
+            client = new MqttClient("tcp://192.168.46.215:1883", "client01", new MemoryPersistence());
             client.setCallback(this);
             client.connect();
             client.subscribe("esp/mq135/air_quality_glenn");

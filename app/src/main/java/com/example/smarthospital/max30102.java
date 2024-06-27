@@ -55,7 +55,7 @@ public class max30102 extends AppCompatActivity implements MqttCallback {
 
     private void connectToMqttBroker() {
         try {
-            client = new MqttClient("tcp://broker.hivemq.com:1883", "client02_max30102", new MemoryPersistence());
+            client = new MqttClient("tcp://192.168.46.215:1883", "client02_max30102", new MemoryPersistence());
             client.connect();
             client.setCallback(this);
             client.subscribe("esp/max30102/heartrate_glenn");
