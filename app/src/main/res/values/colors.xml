@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="agakkuning" >#c8ac18</color>
+    <color name="agakcoklat" >#c27000</color>
+    <color name="kuningmuda" >#c8d330</color>
+    <color name="gakterlalucokelat" >#ba6700</color>
+</resources>
